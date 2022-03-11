@@ -1,0 +1,8 @@
+{
+  "name": "Aragubas-DiscordTheme",
+  "description": "A discord theme with modifications i wanted discord to have by default",
+  "version": "1.0.0",
+  "author": "Aragubas#3594",
+  "theme": "theme/theme-main.css",
+  "license": "GNU GPL3"
+}
