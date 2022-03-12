@@ -32,7 +32,17 @@
 }
 
 /* Popup Notifications Background */
-/* .theme-dark.root-g14mjS {
+.theme-dark.root-g14mjS {
   background-color: unset;
   background: var(--linearGradient-background-floating);
-} */
+}
+
+/* Search Popup  */
+.theme-dark .container-2McqkF {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Removes dark patch in the end of search popup stuff */
+.theme-dark .option-ayUoaq::after {
+  display: none;
+}
