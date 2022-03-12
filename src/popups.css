@@ -46,3 +46,9 @@
 .theme-dark .option-ayUoaq::after {
   display: none;
 }
+
+/* Thread Popup */
+.content-1SgpWY .container-3XgAHv {
+  background-color: var(--background-secondary-alt);
+  border-radius: 0px;
+}
