@@ -108,15 +108,6 @@
   box-shadow: none;
 }
 
-.option-2eIyOn {
-  display: flex;
-  justify-content: space-between;
-}
-
-.popout-1KHNAq.none-2-_0dP.scrollerBase-_bVAAt {
-  background: var(--linearGradient-background-floating);
-}
-
 /* Message Example (used in Pin Dialogs and color settings) */
 .message-G6O-Wv {
   background: var(--background-primary) !important;
@@ -157,6 +148,15 @@
 /* Payments Pane */
 .theme-dark .paginator-1eqD2g {
   background-color: var(--background-secondary);
+}
+
+/* Announcement Channel actions (replaces Text Input area) */
+.wrapper-2SplAX {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background-color: var(--background-secondary-alt);
+  height: var(--bottomBarLayout-height);
+  box-sizing: border-box;
 }
 
 /* 
