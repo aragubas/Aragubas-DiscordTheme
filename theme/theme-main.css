@@ -18,6 +18,10 @@
   --background-accent: rgb(70, 72, 88);
   --deprecated-card-bg: var(--background-secondary);
 
+  /* Powercord Color Scheme */
+  --toast-header: rgb(60, 62, 78) !important;
+  --toast-background: rgb(60, 62, 78) !important;
+
   /* Gradients */
   --linearGradient-background-floating: linear-gradient(
     var(--background-floating),
@@ -134,9 +138,14 @@
   background-color: var(--background-secondary);
   border-color: var(--background-secondary-alt);
 }
+
 /* Payments Pane */
 .paymentRow-1HKOLu.bottomDivider-ZmTm-j {
   border-bottom: 0px;
+}
+
+.scrollableContainer-15eg7h.webkit-QgSAqd {
+  border-radius: 20px;
 }
 
 /* Payments Pane */
