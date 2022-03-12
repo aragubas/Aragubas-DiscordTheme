@@ -40,3 +40,13 @@
 .theme-dark .outer-2JOHae.interactive-2zD88a:hover {
   background-color: var(--background-secondary-alt);
 }
+
+/* Green Buttons */
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+  background-color: var(--button-green);
+}
+
+/* Red Buttons */
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+  background-color: var(--button-red);
+}

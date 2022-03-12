@@ -32,3 +32,21 @@
   background-color: var(--background-secondary);
   margin-top: 0px;
 }
+
+/* Removes the background from fullscreen User Profile popup */
+.theme-dark .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
+  background: unset !important;
+}
+
+/* Bottom container in fullscreen User Profile popup */
+.theme-dark
+  .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
+  .body-1Ukv50 {
+  background: var(--linearGradient-background-floating);
+}
+
+.theme-dark
+  .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3
+  .topSection-13QKHs {
+  background-color: var(--background-secondary-alt);
+}
