@@ -111,6 +111,43 @@
   background: var(--background-primary) !important;
 }
 
+/* Billing Settings Redeem Message */
+.theme-dark .codeRedemptionRedirect-2hYMSQ {
+  background-color: var(--background-secondary);
+  border-color: var(--background-secondary-alt);
+}
+/* Payments Pane */
+.paymentRow-1HKOLu.bottomDivider-ZmTm-j {
+  border-bottom: 0px;
+}
+
+/* Payments Pane */
+.bottomDivider-ZmTm-j.thin-31rlnD.scrollerBase-_bVAAt {
+  background-color: var(--background-secondary-alt);
+  border-bottom: 0px;
+}
+
+/* Payments Pane */
+.theme-dark .paymentPane-ut5qKZ {
+  background-color: var(--background-tertiary);
+}
+
+/* Payments Pane */
+.theme-dark .payment-2bOh4k {
+  background-color: var(--background-secondary-alt);
+  border-bottom: none;
+}
+
+/* Payments Pane */
+.theme-dark .expandedInfo-1W31i3 {
+  background-color: var(--background-secondary);
+}
+
+/* Payments Pane */
+.theme-dark .paginator-1eqD2g {
+  background-color: var(--background-secondary);
+}
+
 /* 
   ########
   Server List
