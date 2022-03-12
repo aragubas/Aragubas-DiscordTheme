@@ -8,15 +8,15 @@
 */
 :root {
   /* Backgrounds */
-  --background-primary: rgb(40, 42, 52);
-  --background-secondary: rgb(50, 52, 62);
-  --background-secondary-alt: rgb(54, 58, 70);
-  --background-tertiary: rgb(58, 62, 72);
+  --background-primary: rgb(40, 42, 54);
+  --background-secondary: rgb(50, 52, 68);
+  --background-secondary-alt: rgb(60, 62, 78);
+  --background-tertiary: rgb(70, 72, 88);
   --background-floating: rgb(60, 62, 78);
 
   /* Scrollbars */
-  --scrollbar-auto-thumb: rgb(60, 62, 74);
-  --scrollbar-auto-track: rgb(50, 50, 60);
+  --scrollbar-auto-thumb: rgb(60, 62, 78);
+  --scrollbar-auto-track: rgb(50, 52, 68);
 
   /* Spaces */
   --space-Med: 0.5rem;
@@ -114,15 +114,14 @@
   BottomBar Layout
   ########
 */
-/* Changes the size of the User Area */
+/* User Area */
 .panels-3wFtMD {
   height: var(--bottomBarLayout-height);
   box-sizing: border-box;
   padding: var(--space-Med);
-  box-shadow: 0px -1px 1px rgb(4, 4, 5, 0.2);
 }
 
-/* Fix the paddings in user area */
+/* Fix padding in user area */
 .container-YkUktl {
   height: min-content;
   padding: 0;
@@ -136,7 +135,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  box-shadow: 0px -1px 1px rgb(4, 4, 5, 0.2);
 }
 
 .form-3gdLxP::before {
@@ -148,23 +146,21 @@
 
 .channelTextArea-1FufC0.channelTextArea-1VQBuV,
 .scrollableContainer-15eg7h.webkit-QgSAqd {
-  /* overflow-y: auto; */
   min-height: var(--bottomBarLayout-height);
   margin: 0;
   box-sizing: border-box;
   border-radius: 0;
-  background-color: var(--background-secondary-alt);
-  padding-left: 16px;
+  background-color: var(--background-secondary);
 }
 
-/* Fix for chat input textbox moving when attachment dialog appears */
-.scrollableContainer-15eg7h.webkit-QgSAqd {
-  padding: 0.1rem;
-}
+/* scrollableContainer-15eg7h webkit-QgSAqd */
 
 /* Fix for the spacing betwheen the chat input textbox and its parent container */
 .inner-NQg18Y.sansAttachButton-1ERHue {
-  padding: 0px var(--space-Med);
+  padding: calc(var(--space-Med) - var(--bottomBarLayout-height))
+    var(--space-Med);
+  min-height: var(--bottomBarLayout-height);
+  background-color: var(--background-secondary-alt);
 }
 
 /* Moves the Typing indicator to the top.
@@ -172,14 +168,37 @@
 .typing-2J1mQU.base-3bcbY3 {
   position: relative;
   left: 0;
-  right: 0;
   bottom: 0;
-  background-color: var(--background-secondary);
+  background-color: var(--background-tertiary);
   padding: 0px var(--space-Med);
   grid-row: 1;
   margin: 0;
+  padding-right: 18px;
+  box-shadow: inset -12px 0px var(--background-secondary);
 }
 
 .divider-2rZFJK {
-  display: none;
+  width: 100%;
+  height: 1px;
+  background-color: var(--background-secondary-alt);
+}
+
+.clipContainer-31nYlH {
+  background-color: var(--background-secondary);
+  transform: translateY(0px);
+  width: 100%;
+  margin-right: 12px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.replyBar-1oi75v {
+  background-color: var(--background-secondary-alt);
+  margin-right: 12px;
+  border-radius: 0px;
+}
+
+.channelAttachmentArea-HwpkuQ.scrollbarGhost-dCZKgZ.scrollbar-3vVt8d {
+  background-color: var(--background-secondary);
+  padding: 32px;
 }
