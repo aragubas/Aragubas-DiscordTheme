@@ -13,6 +13,16 @@
   --background-secondary-alt: rgb(60, 62, 78);
   --background-tertiary: rgb(70, 72, 88);
   --background-floating: rgb(60, 62, 78);
+  --background-modifier-selected: rgba(90, 92, 108, 0.35);
+
+  /* Gradients */
+  --linearGradient-background-floating: linear-gradient(
+    var(--background-floating),
+    var(--background-secondary)
+  );
+
+  /* Shadows */
+  --boxShadow-elevation-high: 0px 0px 8px rgba(0, 2, 12, 0.5);
 
   /* Scrollbars */
   --scrollbar-auto-thumb: rgb(60, 62, 78);
@@ -30,11 +40,58 @@
   /* Colors */
   --text-muted: rgb(110, 112, 128);
   --text-normal: rgb(220, 222, 232);
+
+  /* Brand Experiment? */
+  --brand-experiment-560: rgb(80, 82, 98);
 }
 
 /* Change color of friend tab*/
 .container-2cd8Mz {
   background-color: var(--background-primary) !important;
+}
+
+/* User Profile Popup */
+.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Removes background from activity status on User Profile Popup */
+.bodyInnerWrapper-2bQs1k,
+.footer-3naVBw {
+  background-color: unset;
+}
+
+/* User Profile Footer */
+.footer-3naVBw {
+  padding: var(--space-Med);
+  background-color: var(--background-secondary);
+  margin-top: 0px;
+}
+
+/* Server Context Menu */
+.menu-1QACrS.styleFixed-2_NfVL {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Context Menus */
+.menu-1QACrS.styleFlexible-x0_sIC {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Auto-Complete dialog */
+.autocomplete-3NRXG8 {
+  background-color: var(--background-secondary) !important;
+  border-radius: 0px;
+}
+
+/* Selected item in Auto-Complete Dialog */
+.selected-3H3-RC {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Category Header in Slash Command Dialog */
+.categoryHeader-OpJ1Ly {
+  background-color: var(--background-tertiary) !important;
 }
 
 /* 
