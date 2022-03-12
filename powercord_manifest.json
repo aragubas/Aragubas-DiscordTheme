@@ -3,6 +3,6 @@
   "description": "That theme with a Compact design and a blue color scheme without performance compromises",
   "version": "1.0.0",
   "author": "Aragubas#3594",
-  "theme": "theme/app.scss",
+  "theme": "src/app.scss",
   "license": "GNU GPL3"
 }
