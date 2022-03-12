@@ -1,54 +1,11 @@
-/**
+/* *
  * @name TaiyouUI Discord Theme
  * @author Aragubas#3594
  * @authorId 678368118371778570
  * @version AutoUpdating
  * @description TaiyouUI Look for Discord
  * @source https://github.com/aragubas/Aragubas-DiscordTheme
-*/
-
-/* Change color of friend tab*/
-.container-2cd8Mz {
-  background-color: var(--background-primary) !important;
-}
-
-/* Popup Notifications Background */
-.theme-dark.root-g14mjS {
-  background-color: unset;
-  background: var(--linearGradient-background-floating);
-}
-
-/* Server Discovery Pane */
-.theme-dark .pageWrapper-2PwDoS {
-  background: var(--background-primary);
-}
-
-/* Announcement Channel actions (replaces Text Input area) */
-.wrapper-2SplAX {
-  margin-bottom: 0px;
-  border-radius: 0px;
-  background-color: var(--background-secondary-alt);
-  height: var(--bottomBarLayout-height);
-  box-sizing: border-box;
-}
-
-/* Create a Server Dialog */
-.theme-light .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
-  background: var(--linearGradient-background-semilight-floating) !important;
-  box-shadow: none;
-}
-
-/* Fixes the colors in the create a server dialog */
-.theme-light h3.title-1_TkpU.base-21yXnu.size24-17l95E,
-.theme-light h3.title-OdeD-o.base-21yXnu.size24-17l95E,
-.theme-light h3.footerTitle-3Bslxi.base-21yXnu.size20-9iTTnl,
-.theme-light .colorHeaderSecondary-g5teka.size14-3fJ-ot.skip-2hTIXL,
-.theme-light .contents-3ca1mk,
-.theme-light .colorHeaderSecondary-g5teka.size16-rrJ6ag.subtitle-3m-md1,
-.theme-light .colorHeaderSecondary-g5teka.size12-oc4dx4.optionHeader-27AHfD,
-.theme-light .colorHeaderSecondary-g5teka.size16-rrJ6ag.subtitle-1cc8Nz {
-  color: rgb(240, 242, 255);
-}
+ */
 
 /* 
   ########
@@ -56,7 +13,17 @@
   ########
 */
 
-/* Small gradient thing */
+/* Small gradient thing in channel name on the top bar */
 .children-3xh0VB::after {
   display: none;
+}
+
+/* Server Discovery Pane */
+.theme-dark .pageWrapper-2PwDoS {
+  background: var(--background-primary);
+}
+
+/* Change color of friends tab*/
+.container-2cd8Mz {
+  background-color: var(--background-primary) !important;
 }

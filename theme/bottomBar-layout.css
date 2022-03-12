@@ -85,3 +85,12 @@
   background-color: var(--background-secondary-alt);
   margin-right: 12px;
 }
+
+/* Announcement Channel actions (replaces Text Input area) */
+.wrapper-2SplAX {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background-color: var(--background-secondary-alt);
+  height: var(--bottomBarLayout-height);
+  box-sizing: border-box;
+}
