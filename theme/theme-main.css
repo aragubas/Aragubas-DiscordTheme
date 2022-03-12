@@ -210,6 +210,11 @@
   padding: var(--space-Med);
 }
 
+/* Color Picker Dialog */
+.colorPickerCustom-1swUKF {
+  background: var(--linearGradient-background-floating) !important;
+}
+
 /* Sidebar in Settings */
 .sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
   background: var(--linearGradient-background-floating);
