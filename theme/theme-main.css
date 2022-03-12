@@ -113,8 +113,14 @@
   background: var(--linearGradient-background-semilight-floating);
 }
 
+/* Other Dialogs */
 .theme-dark .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
   background: var(--linearGradient-background-floating);
+}
+
+/* Server Discovery Dialog */
+.theme-dark .pageWrapper-2PwDoS {
+  background: var(--background-primary);
 }
 
 /* Popup Notifications Footer */
