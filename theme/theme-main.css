@@ -6,38 +6,179 @@
  * @description TaiyouUI Look for Discord
  * @source https://github.com/aragubas/Aragubas-DiscordTheme
 */
-
 :root {
-  /* Background */
+  /* Backgrounds */
   --background-primary: rgb(40, 42, 52);
   --background-secondary: rgb(50, 52, 62);
-  --background-secondary-alt: rgb(54, 58, 68);
+  --background-secondary-alt: rgb(54, 58, 70);
   --background-tertiary: rgb(58, 62, 72);
+  --background-floating: rgb(60, 62, 78);
 
   /* Scrollbars */
   --scrollbar-auto-thumb: rgb(60, 62, 74);
   --scrollbar-auto-track: rgb(50, 50, 60);
+
+  /* Spaces */
+  --space-Med: 0.5rem;
+
+  /* TopBarLayout */
+  --topBarLayout-height: 2.5rem;
+
+  /* BottomBarLayout */
+  --bottomBarLayout-height: 3rem;
+
+  /* Colors */
+  --text-muted: rgb(110, 112, 128);
+  --text-normal: rgb(220, 222, 232);
 }
 
+/* Change color of friend tab*/
 .container-2cd8Mz {
   background-color: var(--background-primary) !important;
 }
 
+/* 
+  ########
+  Server List
+  ########
+*/
+
+/* Hides the Server List */
 .wrapper-1_HaEi.guilds-2JjMmN {
-  transition: width, opacity, box-shadow;
+  transition: width, left, opacity, box-shadow;
   transition-duration: 0.25s;
   transition-delay: 0.4s;
   position: absolute;
-  left: 0;
-  width: calc(72px / 7);
-  height: calc(100%);
-  opacity: 0.3;
-  z-index: 3;
+  left: -59px; /* visible width: 12 pixels  */
+  /* width: calc(72px / 7); */
+  height: 100%;
+  opacity: 0.1;
+  z-index: 4;
 }
-
+/* Shows the server list when hovering over it */
 .wrapper-1_HaEi.guilds-2JjMmN:hover {
-  transition-delay: 0.03s;
-  width: 72px;
+  transition-delay: 0.02s;
+  left: 0;
+  /* width: 72px; */
   opacity: 1;
   box-shadow: 0px 0px 4px black;
+}
+
+/* Changes the background color of Server List Container */
+.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt {
+  background-color: var(--background-secondary);
+}
+
+/* Adds a left margin to main content with size of hidden server list */
+.base-2jDfDU {
+  margin-left: 12px;
+}
+
+/* 
+  ########
+  TopBar Layout
+  ########
+*/
+
+/* Height of Actions Bar in a channel */
+.container-ZMc96U.themed-Hp1KC_ {
+  background-color: var(--background-secondary);
+  height: var(--topBarLayout-height);
+  padding: var(--space-Med);
+  box-sizing: border-box;
+}
+
+/* TopBarLayout : Set height of search bar in DM's */
+.searchBar-3TnChZ {
+  height: var(--topBarLayout-height);
+  box-sizing: border-box;
+  padding: var(--space-Med);
+}
+
+/* TopBarLayout : Set height of server name header container */
+.header-3OsQeK {
+  height: var(--topBarLayout-height);
+  box-sizing: border-box;
+  padding: var(--space-Med);
+}
+
+/* 
+  ########
+  Small Fixes
+  ########
+*/
+
+/* Small gradient thing */
+.children-3xh0VB::after {
+  display: none;
+}
+
+/* 
+  ########
+  BottomBar Layout
+  ########
+*/
+/* Changes the size of the User Area */
+.panels-3wFtMD {
+  height: var(--bottomBarLayout-height);
+  box-sizing: border-box;
+  padding: var(--space-Med);
+}
+
+/* Fix the paddings in user area */
+.container-YkUktl {
+  height: min-content;
+  padding: 0;
+}
+
+.form-3gdLxP {
+  min-height: var(--bottomBarLayout-height);
+  display: grid;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.form-3gdLxP::before {
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
+.channelTextArea-1FufC0.channelTextArea-1VQBuV,
+.scrollableContainer-15eg7h.webkit-QgSAqd {
+  /* overflow-y: auto; */
+  min-height: var(--bottomBarLayout-height);
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 0;
+  background-color: var(--background-secondary-alt);
+  padding-left: 16px;
+}
+
+/* Fix for chat input textbox moving when attachment dialog appears */
+.scrollableContainer-15eg7h.webkit-QgSAqd {
+  padding: 0.1rem;
+}
+
+/* Fix for the spacing betwheen the chat input textbox and its parent container */
+.inner-NQg18Y.sansAttachButton-1ERHue {
+  padding: 0px var(--space-Med);
+}
+
+.typing-2J1mQU.base-3bcbY3 {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background-secondary);
+  padding: 0px var(--space-Med);
+  grid-row: 1;
+  margin: 0;
+}
+
+.divider-2rZFJK {
+  display: none;
 }
