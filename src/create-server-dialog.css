@@ -21,6 +21,12 @@
   box-shadow: none;
 }
 
+/* Scrollbar */
+.theme-light
+  .content-2hZxGK.templatesList-uohY49.thin-31rlnD.scrollerBase-_bVAAt::-webkit-scrollbar-thumb {
+  background-color: var(--background-primary);
+}
+
 /* Fixes the colors in the create a server dialog */
 .theme-light h3.title-1_TkpU.base-21yXnu.size24-17l95E,
 .theme-light h3.title-OdeD-o.base-21yXnu.size24-17l95E,

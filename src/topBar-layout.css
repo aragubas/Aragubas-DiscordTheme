@@ -40,7 +40,8 @@
 /* Removes the separation between the two action containers by adding a top border with the same color and a similar shadow  */
 .resizeHandle-PBRzPC {
   border-top: var(--topBarLayout-height) solid var(--background-secondary);
-  box-shadow: inset 0px 0px 2px black;
+  box-shadow: inset -2px 1px 2px rgba(0, 2, 12, 0.5);
+  background-color: var(--background-primary);
 }
 
 /* Removes rounded border from chat */

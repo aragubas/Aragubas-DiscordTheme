@@ -56,8 +56,6 @@
   background-color: var(--background-secondary);
 }
 
-/* scrollableContainer-15eg7h webkit-QgSAqd */
-
 /* Fix for the spacing betwheen the chat input textbox and its parent container */
 .inner-NQg18Y.sansAttachButton-1ERHue {
   padding: calc(var(--space-Med) - var(--bottomBarLayout-height))
@@ -111,4 +109,19 @@
   background-color: var(--background-secondary-alt);
   height: var(--bottomBarLayout-height);
   box-sizing: border-box;
+}
+
+/* Adds small margin to character count element (only visible when message is almost hitting the character limit) */
+.characterCount-8yNPfb {
+  margin-right: 0.3rem;
+}
+
+.chat-1-OBC7 .inner-NQg18Y.sansAttachButton-1ERHue {
+  background-color: var(--background-primary);
+}
+
+.chat-1-OBC7
+  .scrollableContainer-15eg7h.webkit-QgSAqd::-webkit-scrollbar-track {
+  background-color: var(--background-primary);
+  border: none;
 }
