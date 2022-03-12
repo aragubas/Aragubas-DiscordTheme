@@ -50,14 +50,3 @@
 .lookFilled-yCfaCM.colorRed-rQXKgM {
   background-color: var(--button-red);
 }
-
-/* Removes the separation between the two action containers by adding a top border with the same color and a similar shadow  */
-.resizeHandle-PBRzPC {
-  border-top: var(--topBarLayout-height) solid var(--background-secondary);
-  box-shadow: inset 0px 0px 2px black;
-}
-
-/* Removes rounded border from chat */
-.chat-2ZfjoI {
-  border-radius: 0px !important;
-}
