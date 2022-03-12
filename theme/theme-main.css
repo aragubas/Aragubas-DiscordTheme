@@ -43,25 +43,25 @@
   ########
 */
 .wrapper-1_HaEi.guilds-2JjMmN {
-  transition: all;
-  transition-duration: 0.25s;
-  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: left, box-shadow, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.2, 0.8);
   transition-delay: 0.5s;
-  background-color: var(--background-tertiary);
   position: absolute;
-  left: -59px;
   height: 100%;
+  left: -59px;
   /* width: 12px; */
   z-index: 4;
-  box-shadow: 1px 0px 1px rgb(4, 4, 5, 0.2);
+  opacity: 0;
+  /* box-shadow: 1px 0px 1px rgb(4, 4, 5, 0.2); */
 }
 /* Shows the server list when hovering over it */
 .wrapper-1_HaEi.guilds-2JjMmN:hover {
-  width: 72px;
-  box-shadow: 4px 0px 4px rgb(4, 4, 5, 0.2);
-  transition-delay: 0.05s;
-  height: 100%;
+  transition-duration: 0.1s;
+  transition-delay: 0.08s;
   left: 0;
+  opacity: 1;
+  box-shadow: 4px 0px 4px rgb(4, 4, 5, 0.2);
   /* box-shadow: 0px 0px 4px black; */
 }
 
@@ -144,6 +144,7 @@
   left: 0;
 }
 
+/* TextInput Area */
 .channelTextArea-1FufC0.channelTextArea-1VQBuV,
 .scrollableContainer-15eg7h.webkit-QgSAqd {
   min-height: var(--bottomBarLayout-height);
@@ -177,12 +178,14 @@
   box-shadow: inset -12px 0px var(--background-secondary);
 }
 
+/* 1 pixel line between attachment dialog and the text input area */
 .divider-2rZFJK {
   width: 100%;
   height: 1px;
   background-color: var(--background-secondary-alt);
 }
 
+/* Clip Container, root element of ReplyBar */
 .clipContainer-31nYlH {
   background-color: var(--background-secondary);
   transform: translateY(0px);
@@ -192,13 +195,9 @@
   padding-top: 0;
 }
 
+/* TextInput area's reply bar */
 .replyBar-1oi75v {
   background-color: var(--background-secondary-alt);
   margin-right: 12px;
   border-radius: 0px;
-}
-
-.channelAttachmentArea-HwpkuQ.scrollbarGhost-dCZKgZ.scrollbar-3vVt8d {
-  background-color: var(--background-secondary);
-  padding: 32px;
 }
