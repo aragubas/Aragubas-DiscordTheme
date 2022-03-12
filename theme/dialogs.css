@@ -1,0 +1,15 @@
+/* Other Dialogs */
+.theme-dark .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Other Dialogs Footer */
+.theme-dark .footer-31IekZ {
+  background: var(--background-secondary);
+  box-shadow: none;
+}
+
+/* Color Picker Dialog */
+.colorPickerCustom-1swUKF {
+  background: var(--linearGradient-background-floating) !important;
+}

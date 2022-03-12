@@ -1,0 +1,32 @@
+/* 
+  ########
+  Server List
+  ########
+*/
+.wrapper-1_HaEi.guilds-2JjMmN {
+  transition: left, box-shadow, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.2, 0.8);
+  transition-delay: 0.7s;
+  position: absolute;
+  height: 100%;
+  left: -59px;
+  /* width: 12px; */
+  z-index: 4;
+  opacity: 0;
+  /* box-shadow: 1px 0px 1px rgb(4, 4, 5, 0.2); */
+}
+/* Shows the server list when hovering over it */
+.wrapper-1_HaEi.guilds-2JjMmN:hover {
+  transition-duration: 0.1s;
+  transition-delay: 0.08s;
+  left: 0;
+  opacity: 1;
+  box-shadow: 4px 0px 4px rgb(4, 4, 5, 0.2);
+  /* box-shadow: 0px 0px 4px black; */
+}
+
+/* Adds a left margin to main content with size of hidden server list */
+.base-2jDfDU {
+  margin-left: 12px;
+}

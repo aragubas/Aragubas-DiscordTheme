@@ -1,0 +1,21 @@
+/* Height of Actions Bar in a channel */
+.container-ZMc96U.themed-Hp1KC_ {
+  background-color: var(--background-secondary);
+  height: var(--topBarLayout-height);
+  padding: var(--space-Med);
+  box-sizing: border-box;
+}
+
+/* TopBarLayout : Set height of search bar in DM's */
+.searchBar-3TnChZ {
+  height: var(--topBarLayout-height);
+  box-sizing: border-box;
+  padding: var(--space-Med);
+}
+
+/* TopBarLayout : Set height of server name header container */
+.header-3OsQeK {
+  height: var(--topBarLayout-height);
+  box-sizing: border-box;
+  padding: var(--space-Med);
+}

@@ -1,0 +1,15 @@
+/* Auto-Complete dialog */
+.autocomplete-3NRXG8 {
+  background-color: var(--background-secondary) !important;
+  border-radius: 0px;
+}
+
+/* Selected item in Auto-Complete Dialog */
+.selected-3H3-RC {
+  background-color: var(--background-secondary-alt) !important;
+}
+
+/* Category Header in Slash Command Dialog */
+.categoryHeader-OpJ1Ly {
+  background-color: var(--background-tertiary) !important;
+}

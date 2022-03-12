@@ -1,0 +1,17 @@
+/* User Profile Popup */
+.body-2wLx-E.thin-31rlnD.scrollerBase-_bVAAt {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Removes background from activity status on User Profile Popup */
+.bodyInnerWrapper-2bQs1k,
+.footer-3naVBw {
+  background-color: unset;
+}
+
+/* User Profile Footer */
+.footer-3naVBw {
+  padding: var(--space-Med);
+  background-color: var(--background-secondary);
+  margin-top: 0px;
+}
