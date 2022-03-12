@@ -6,7 +6,8 @@
  * @description TaiyouUI Look for Discord
  * @source https://github.com/aragubas/Aragubas-DiscordTheme
 */
-:root {
+:root,
+.theme-light {
   /* Backgrounds */
   --background-primary: rgb(40, 42, 54);
   --background-secondary: rgb(50, 52, 68);
@@ -20,6 +21,11 @@
   /* Gradients */
   --linearGradient-background-floating: linear-gradient(
     var(--background-floating),
+    var(--background-secondary) 80%
+  );
+
+  --linearGradient-background-semilight-floating: linear-gradient(
+    rgb(90, 92, 108),
     var(--background-secondary) 80%
   );
 
@@ -97,8 +103,17 @@
 }
 
 /* Popup Notifications Background */
-.theme-dark .root-g14mjS {
+.theme-dark.root-g14mjS {
   background-color: unset;
+  background: var(--linearGradient-background-floating);
+}
+
+/* Create a Server Dialog */
+.theme-light .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
+  background: var(--linearGradient-background-semilight-floating);
+}
+
+.theme-dark .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
   background: var(--linearGradient-background-floating);
 }
 
@@ -157,6 +172,24 @@
   background-color: var(--background-secondary-alt);
   height: var(--bottomBarLayout-height);
   box-sizing: border-box;
+}
+
+/* Fixes the colors in the create a server dialog */
+.theme-light h3.title-1_TkpU.base-21yXnu.size24-17l95E,
+.theme-light h3.title-OdeD-o.base-21yXnu.size24-17l95E,
+.theme-light h3.footerTitle-3Bslxi.base-21yXnu.size20-9iTTnl,
+.theme-light .colorHeaderSecondary-g5teka.size14-3fJ-ot.skip-2hTIXL,
+.theme-light .contents-3ca1mk,
+.theme-light .colorHeaderSecondary-g5teka.size16-rrJ6ag.subtitle-3m-md1 {
+  color: rgb(240, 242, 255);
+}
+
+.theme-light .container-x8Y1ix {
+  background-color: rgb(50, 52, 68);
+}
+
+.theme-light .colorHeaderSecondary-g5teka.size12-oc4dx4.optionHeader-27AHfD {
+  color: rgb(240, 242, 255);
 }
 
 /* 
