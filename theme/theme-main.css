@@ -108,11 +108,6 @@
   background: var(--linearGradient-background-floating);
 }
 
-/* Create a Server Dialog */
-.theme-light .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
-  background: var(--linearGradient-background-semilight-floating);
-}
-
 /* Other Dialogs */
 .theme-dark .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
   background: var(--linearGradient-background-floating);
@@ -180,21 +175,21 @@
   box-sizing: border-box;
 }
 
+/* Create a Server Dialog */
+.theme-light .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
+  background: var(--linearGradient-background-semilight-floating) !important;
+  box-shadow: none;
+}
+
 /* Fixes the colors in the create a server dialog */
 .theme-light h3.title-1_TkpU.base-21yXnu.size24-17l95E,
 .theme-light h3.title-OdeD-o.base-21yXnu.size24-17l95E,
 .theme-light h3.footerTitle-3Bslxi.base-21yXnu.size20-9iTTnl,
 .theme-light .colorHeaderSecondary-g5teka.size14-3fJ-ot.skip-2hTIXL,
 .theme-light .contents-3ca1mk,
-.theme-light .colorHeaderSecondary-g5teka.size16-rrJ6ag.subtitle-3m-md1 {
-  color: rgb(240, 242, 255);
-}
-
-.theme-light .container-x8Y1ix {
-  background-color: rgb(50, 52, 68);
-}
-
-.theme-light .colorHeaderSecondary-g5teka.size12-oc4dx4.optionHeader-27AHfD {
+.theme-light .colorHeaderSecondary-g5teka.size16-rrJ6ag.subtitle-3m-md1,
+.theme-light .colorHeaderSecondary-g5teka.size12-oc4dx4.optionHeader-27AHfD,
+.theme-light .colorHeaderSecondary-g5teka.size16-rrJ6ag.subtitle-1cc8Nz {
   color: rgb(240, 242, 255);
 }
 
