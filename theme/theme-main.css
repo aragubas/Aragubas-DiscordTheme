@@ -210,6 +210,11 @@
   padding: var(--space-Med);
 }
 
+/* Sidebar in Settings */
+.sidebarRegionScroller-FXiQOh.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
+  background: var(--linearGradient-background-floating);
+}
+
 /* Add Game Popup in Activity Settings */
 .theme-dark .addGamePopout-2SKNIV {
   background-color: var(--background-secondary-alt);
