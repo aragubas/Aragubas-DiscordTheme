@@ -18,7 +18,7 @@
   /* Gradients */
   --linearGradient-background-floating: linear-gradient(
     var(--background-floating),
-    var(--background-secondary)
+    var(--background-secondary) 80%
   );
 
   /* Shadows */
@@ -92,6 +92,23 @@
 /* Category Header in Slash Command Dialog */
 .categoryHeader-OpJ1Ly {
   background-color: var(--background-tertiary) !important;
+}
+
+/* Popup Notifications Background */
+.theme-dark .root-g14mjS {
+  background-color: unset;
+  background: var(--linearGradient-background-floating);
+}
+
+/* Popup Notifications Footer */
+.theme-dark .footer-31IekZ {
+  background: var(--background-secondary);
+  box-shadow: none;
+}
+
+/* Message Example (used in Pin Dialogs and color settings) */
+.message-G6O-Wv {
+  background: var(--background-primary) !important;
 }
 
 /* 
