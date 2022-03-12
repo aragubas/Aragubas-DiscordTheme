@@ -42,31 +42,27 @@
   Server List
   ########
 */
-
-/* Hides the Server List */
 .wrapper-1_HaEi.guilds-2JjMmN {
-  transition: width, left, opacity, box-shadow;
+  transition: all;
   transition-duration: 0.25s;
-  transition-delay: 0.4s;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 0.5s;
+  background-color: var(--background-tertiary);
   position: absolute;
-  left: -59px; /* visible width: 12 pixels  */
-  /* width: calc(72px / 7); */
+  left: -59px;
   height: 100%;
-  opacity: 0.1;
+  /* width: 12px; */
   z-index: 4;
+  box-shadow: 1px 0px 1px rgb(4, 4, 5, 0.2);
 }
 /* Shows the server list when hovering over it */
 .wrapper-1_HaEi.guilds-2JjMmN:hover {
-  transition-delay: 0.02s;
+  width: 72px;
+  box-shadow: 4px 0px 4px rgb(4, 4, 5, 0.2);
+  transition-delay: 0.05s;
+  height: 100%;
   left: 0;
-  /* width: 72px; */
-  opacity: 1;
-  box-shadow: 0px 0px 4px black;
-}
-
-/* Changes the background color of Server List Container */
-.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt {
-  background-color: var(--background-secondary);
+  /* box-shadow: 0px 0px 4px black; */
 }
 
 /* Adds a left margin to main content with size of hidden server list */
@@ -123,6 +119,7 @@
   height: var(--bottomBarLayout-height);
   box-sizing: border-box;
   padding: var(--space-Med);
+  box-shadow: 0px -1px 1px rgb(4, 4, 5, 0.2);
 }
 
 /* Fix the paddings in user area */
@@ -131,6 +128,7 @@
   padding: 0;
 }
 
+/* Channel text input box */
 .form-3gdLxP {
   min-height: var(--bottomBarLayout-height);
   display: grid;
@@ -138,6 +136,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  box-shadow: 0px -1px 1px rgb(4, 4, 5, 0.2);
 }
 
 .form-3gdLxP::before {
@@ -168,6 +167,8 @@
   padding: 0px var(--space-Med);
 }
 
+/* Moves the Typing indicator to the top.
+  Also contains the Slowmode indicator*/
 .typing-2J1mQU.base-3bcbY3 {
   position: relative;
   left: 0;
