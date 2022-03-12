@@ -17,7 +17,7 @@
 
 /* Other Dialogs */
 .theme-dark .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
-  background: var(--linearGradient-background-floating);
+  background: var(--linearGradient-background-floating) !important;
 }
 
 /* Other Dialogs Footer */
