@@ -101,6 +101,7 @@
 .replyBar-1oi75v {
   background-color: var(--background-secondary-alt);
   margin-right: 12px;
+  border-radius: 0px !important;
 }
 
 /* Announcement Channel actions (replaces Text Input area) */
