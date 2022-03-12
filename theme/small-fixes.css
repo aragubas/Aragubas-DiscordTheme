@@ -15,18 +15,22 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.  
 */
 
-/* Other Dialogs */
-.theme-dark .root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 {
-  background: var(--linearGradient-background-floating);
+/* Small gradient thing in channel name on the top bar */
+.children-3xh0VB::after {
+  display: none;
 }
 
-/* Other Dialogs Footer */
-.theme-dark .footer-31IekZ {
-  background: var(--background-secondary);
-  box-shadow: none;
+/* Server Discovery Pane */
+.theme-dark .pageWrapper-2PwDoS {
+  background: var(--background-primary);
 }
 
-/* Color Picker Dialog */
-.colorPickerCustom-1swUKF {
-  background: var(--linearGradient-background-floating) !important;
+/* Change color of friends tab*/
+.container-2cd8Mz {
+  background-color: var(--background-primary) !important;
+}
+
+/* Change background in call container */
+.callContainer-HtHELf {
+  background-color: var(--background-secondary) !important;
 }

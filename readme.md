@@ -1,6 +1,6 @@
 # Aragubas Discord Theme
 
-That with a Compact design and a blue color scheme
+That theme with a Compact design and a blue color scheme without performance compromises
 
 This theme doesn't contain blur or stuff that makes discord heavy and unresponsive, The main focus is performance and compact design.
 
