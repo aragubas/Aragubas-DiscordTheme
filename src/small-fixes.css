@@ -50,3 +50,8 @@
 .theme-dark .applicationStreamingPreviewWrapper-7j27t8 {
   background-color: var(--background-secondary-alt);
 }
+
+/* Streaming Preview */
+.theme-dark .streamPreview-I7itZ6 {
+  background-color: var(--background-secondary-alt);
+}
