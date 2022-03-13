@@ -132,7 +132,7 @@ a {
   height: 100%;
   z-index: -1;
   opacity: 0;
-  background-color: rgba(4, 6, 8, 0.8);
+  background-color: rgba(4, 6, 8, 0.95);
 }
 
 .imagePreview {
