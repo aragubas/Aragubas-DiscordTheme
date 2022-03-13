@@ -1,3 +1,18 @@
+/* Copyright (C) 2022 Aragubas <vaiogames18@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto&family=Ubuntu:wght@300;700&display=swap");
 @import "./header.css";
 @import "./controls.css";
@@ -109,4 +124,20 @@ a {
   font-family: Ubuntu;
   font-weight: bold;
   font-size: 0.8rem;
+}
+
+#imagePreviewContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0;
+  background-color: rgba(4, 6, 8, 0.8);
+}
+
+.imagePreview {
+  width: 90%;
+  left: calc(100% / 2 - 90% / 2);
+  top: 5%;
+  position: fixed;
 }
