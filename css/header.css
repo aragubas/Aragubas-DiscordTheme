@@ -1,0 +1,29 @@
+.header-container {
+  background-color: var(--background-secondary);
+  height: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  box-shadow: 0px 1px 0px rgba(2, 4, 8, 0.2);
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.header-logo {
+  width: 28px;
+}
+
+.logo-box {
+  font-family: Ubuntu;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logo-box span {
+  color: var(--text-muted);
+  font-family: Ubuntu;
+  font-weight: bold;
+}
