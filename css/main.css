@@ -17,6 +17,11 @@
     var(--background-secondary) 80%
   );
 
+  /* Scrollbars */
+  --scrollbar-auto-thumb: rgb(60, 62, 78);
+  --scrollbar-auto-track: rgb(50, 52, 68);
+
+  /* Text Colors */
   --text-muted: rgb(110, 112, 128);
   --text-normal: rgb(220, 222, 232);
 }
@@ -28,6 +33,23 @@ body {
   margin: 0px;
   display: grid;
   gap: 1.5rem;
+}
+
+body::-webkit-scrollbar {
+  background-color: var(--scrollbar-auto-track);
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-auto-thumb);
+  min-height: 40px;
+}
+
+body::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-track {
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  border-radius: 8px;
 }
 
 h1,
