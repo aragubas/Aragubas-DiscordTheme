@@ -47,3 +47,10 @@
 .base-2jDfDU {
   margin-left: 12px;
 }
+
+/* Accessability feature for users that prefers reduced motion */
+@media (prefers-reduced-motion) {
+  .wrapper-1_HaEi.guilds-2JjMmN {
+    transition: none;
+  }
+}
