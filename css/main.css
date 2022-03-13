@@ -83,13 +83,13 @@ a {
 }
 
 .button {
+  display: block;
   transition: background-color 0.17s ease, color 0.17s ease;
-  display: flex;
-  justify-content: center;
   background-color: rgb(89, 102, 243);
   padding: 4px 12px;
   border-radius: 4px;
   color: var(--text-normal);
+  text-align: center;
 }
 
 .button:hover {
@@ -102,7 +102,6 @@ a {
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   width: 1044px;
-  height: 326px;
   box-shadow: 0px 1px 1px rgba(4, 6, 8, 0.2);
   border-radius: 4px;
   background: var(--linearGradient-background-floating);
@@ -150,4 +149,11 @@ a {
   box-shadow: 0px 1px 1px rgba(4, 6, 8, 0.2);
   border-radius: 4px;
   background-color: var(--background-secondary);
+}
+
+.card-links {
+  display: flex;
+  gap: 1rem;
+
+  justify-content: center;
 }
