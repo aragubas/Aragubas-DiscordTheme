@@ -41,16 +41,6 @@
   background-color: var(--background-secondary-alt);
 }
 
-/* Green Buttons */
-.lookFilled-yCfaCM.colorGreen-3y-Z79 {
-  background-color: var(--button-green);
-}
-
-/* Red Buttons */
-.lookFilled-yCfaCM.colorRed-rQXKgM {
-  background-color: var(--button-red);
-}
-
 /* Fixes spacing in thread popup */
 .scroller-oTbAWP.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN .container-1yy5xN {
   padding-bottom: 3rem;
