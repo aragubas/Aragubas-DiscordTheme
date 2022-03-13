@@ -11,44 +11,63 @@
 
 <body>
   <header class="header-container">
-    <div class="logo-box">
+    <div class="logo-box" aria-labelledby="aragubas-brand-name">
       <img class="header-logo" src="./src/aragubas.svg" alt="">
-      <span>ARAGUBAS</span>
+      <span id="aragubas-brand-name">ARAGUBAS</span>
     </div>
 
     <a href="https://github.com/aragubas/Aragubas-DiscordTheme" class="button">View on Github</a>
   </header>
 
-  <main class="main-container">
-    <div class="main-card-container">
-      <h1>Aragubas-DiscordTheme</h1>
+  <main>
+    <div class="main-container">
+      <div class="card-container">
+        <h1>Aragubas-DiscordTheme</h1>
 
-      <i>“That theme with a Compact design and a blue color scheme
-        without performance compromises”</i>
+        <i>“That theme with a Compact design and a blue color scheme
+          without performance compromises”</i>
 
-      <section>
-        <p>Simple and modern theme made with CSS and SCSS featuring:</p>
+        <section aria-labelledby="main-headline-features">
+          <p id="main-headline-features">Simple and modern theme made with CSS and SCSS featuring:</p>
 
-        <ul>
-          <li>
-            <p>Top Bar/Down bar layout</p>
-          </li>
+          <ul>
+            <li>
+              <p>Top Bar/Down bar layout</p>
+            </li>
 
-          <li>
-            <p>Hidden Server List</p>
-          </li>
+            <li>
+              <p>Hidden Server List</p>
+            </li>
 
-          <li>
-            <p>Blue Color Scheme</p>
-          </li>
-        </ul>
-      </section>
+            <li>
+              <p>Blue Color Scheme</p>
+            </li>
+          </ul>
+        </section>
 
-    </div>
-    <div class="preview-image-container">
-      <img class="preview-image" src="src/home.png" alt="Screenshot">
+      </div>
+
+      <div class="preview-image-container">
+        <img class="preview-image" src="src/home.png" alt="Screenshot">
+      </div>
+
     </div>
   </main>
+
+  <section>
+    <div class="card">
+      <div class="preview-image-container">
+        <img class="preview-image" src="src/server-preview.png" alt="Screenshot">
+      </div>
+
+      <div class="card-container">
+        <h1>Topbar/Downbar Layout</h1>
+        <p>With its TopBar/DownBar layout its possible to make a compact layout with modern design very easily without compromising useability. </p>
+
+      </div>
+    </div>
+
+  </section>
 </body>
 
 </html>

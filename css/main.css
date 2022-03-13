@@ -83,28 +83,29 @@ a {
 }
 
 .button {
+  transition: background-color 0.17s ease, color 0.17s ease;
   display: flex;
   justify-content: center;
   background-color: rgb(89, 102, 243);
   padding: 4px 12px;
   border-radius: 4px;
+  color: var(--text-normal);
+}
+
+.button:hover {
+  background-color: rgb(80, 82, 98);
+  color: white;
 }
 
 .main-container {
   display: grid;
-  margin: 0 auto;
   grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
   width: 1044px;
   height: 326px;
-  background: var(--linearGradient-background-floating);
   box-shadow: 0px 1px 1px rgba(4, 6, 8, 0.2);
   border-radius: 4px;
-}
-
-.main-container h1 {
-  color: white;
-  font-family: Ubuntu;
-  font-weight: bold;
+  background: var(--linearGradient-background-floating);
 }
 
 .preview-image-container {
@@ -118,19 +119,33 @@ a {
   box-shadow: 0px 0px 16px rgba(2, 4, 5, 0.5);
 }
 
-.main-card-container {
+.card-container {
   display: grid;
   gap: 1.5rem;
   padding: 24px;
 }
 
-.main-card-container i {
+.card-container i {
   font-family: Inter;
   font-style: italic;
   color: var(--text-muted);
 }
 
-.main-card-container h1 {
-  text-align: center;
+.card-container h1 {
+  color: white;
+  font-family: Ubuntu;
   font-weight: normal;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  width: 1044px;
+  height: 326px;
+  box-shadow: 0px 1px 1px rgba(4, 6, 8, 0.2);
+  border-radius: 4px;
+  background-color: var(--background-secondary);
 }
