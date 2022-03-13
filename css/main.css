@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto&family=Ubuntu:wght@300;700&display=swap");
+
+:root {
+  /* Backgrounds */
+  --background-primary: rgb(40, 42, 54);
+  --background-secondary: rgb(50, 52, 68);
+  --background-secondary-alt: rgb(60, 62, 78);
+  --background-tertiary: rgb(70, 72, 88);
+  --background-floating: rgb(60, 62, 78);
+  --background-modifier-selected: rgba(90, 92, 108, 0.35);
+  --background-accent: rgb(70, 72, 88);
+  --deprecated-card-bg: var(--background-secondary);
+
+  /* Gradients */
+  --linearGradient-background-floating: linear-gradient(
+    var(--background-floating),
+    var(--background-secondary) 80%
+  );
+
+  --text-muted: rgb(110, 112, 128);
+  --text-normal: rgb(220, 222, 232);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  margin: 0px;
+  display: grid;
+  gap: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--text-normal);
+  text-decoration: none;
+  font-family: Inter;
+}
+
+.header-container {
+  background-color: var(--background-secondary);
+  height: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  box-shadow: 0px 1px 0px rgba(2, 4, 8, 0.2);
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.header-logo {
+  width: 28px;
+}
+
+.logo-box {
+  font-family: Ubuntu;
+  font-weight: bold;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.logo-box span {
+  color: var(--text-muted);
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(89, 102, 243);
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+
+.main-container {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  width: 1044px;
+  height: 326px;
+  background: var(--linearGradient-background-floating);
+  box-shadow: 0px 1px 1px rgba(4, 6, 8, 0.2);
+  border-radius: 4px;
+}
+
+.main-container h1 {
+  color: white;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.preview-image-container {
+  display: flex;
+  box-sizing: border-box;
+  padding: 18px;
+}
+
+.preview-image {
+  border-radius: 4px;
+  box-shadow: 0px 0px 16px rgba(2, 4, 5, 0.5);
+}
+
+.main-card-container {
+  display: grid;
+  gap: 1.5rem;
+  padding: 24px;
+}
+
+.main-card-container i {
+  font-family: Inter;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+.main-card-container h1 {
+  text-align: center;
+  font-weight: normal;
+}
