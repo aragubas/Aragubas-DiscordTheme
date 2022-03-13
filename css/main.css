@@ -110,13 +110,16 @@ a {
 
 .preview-image-container {
   display: flex;
-  box-sizing: border-box;
   padding: 18px;
 }
 
 .preview-image {
   border-radius: 4px;
   box-shadow: 0px 0px 16px rgba(2, 4, 5, 0.5);
+}
+
+.preview-image-sidebar {
+  border-radius: 4px;
 }
 
 .card-container {
@@ -144,7 +147,6 @@ a {
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   width: 1044px;
-  height: 326px;
   box-shadow: 0px 1px 1px rgba(4, 6, 8, 0.2);
   border-radius: 4px;
   background-color: var(--background-secondary);
