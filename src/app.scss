@@ -31,9 +31,9 @@
 @use "./bottomBar-layout.css";
 @use "./topBar-layout.css";
 @use "./popups.css";
-@use "./settings.css";
 @use "./create-server-dialog.css";
 @use "./small-fixes.css";
+@use "./settings.css";
 
 // Variables for Color Scheme, Gradients and Spaces::: root,
 :root,
@@ -52,7 +52,6 @@
   --toast-header: rgb(60, 62, 78) !important;
   --toast-background: rgb(60, 62, 78) !important;
   --toast-contents: var(--background-secondary) !important;
-  --toast-box-shadow: 
 
   /* Gradients */
   --linearGradient-background-floating: linear-gradient(
@@ -60,9 +59,14 @@
     var(--background-secondary) 80%
   );
 
+  --linearGradient-background-settings: linear-gradient(
+    var(--background-floating),
+    var(--background-primary)
+  );
+
   --linearGradient-background-semilight-floating: linear-gradient(
     rgb(90, 92, 108),
-    var(--background-secondary) 80%
+    var(--background-secondary)
   );
 
   /* Shadows */

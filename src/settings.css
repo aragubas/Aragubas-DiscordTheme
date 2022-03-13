@@ -71,3 +71,8 @@
 .theme-dark .addGamePopout-2SKNIV {
   background: var(--linearGradient-background-floating);
 }
+
+/* Settings screen background */
+.contentRegionScroller-2_GT_N.contentRegionShownSidebar-fHXkEg.auto-2K3UW5.scrollerBase-_bVAAt {
+  background: var(--linearGradient-background-settings);
+}
