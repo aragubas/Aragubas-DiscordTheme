@@ -17,15 +17,21 @@
 
 /* User Area */
 .panels-3wFtMD {
-  height: var(--bottomBarLayout-height);
+  /* min-height: var(--bottomBarLayout-height); */
+  /* height: var(--bottomBarLayout-height); */
+
   box-sizing: border-box;
-  padding: var(--space-Med);
 }
 
 /* Fix padding in user area */
 .container-YkUktl {
-  height: min-content;
-  padding: 0;
+  padding: 0px var(--space-Med);
+  margin-bottom: 0;
+  height: var(--bottomBarLayout-height);
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU {
+  padding: var(--space-Med);
 }
 
 /* Channel text input box */
