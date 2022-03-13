@@ -125,19 +125,3 @@ a {
   font-weight: bold;
   font-size: 0.8rem;
 }
-
-#imagePreviewContainer {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0;
-  background-color: rgba(4, 6, 8, 0.95);
-}
-
-.imagePreview {
-  width: 90%;
-  left: calc(100% / 2 - 90% / 2);
-  top: 5%;
-  position: fixed;
-}
