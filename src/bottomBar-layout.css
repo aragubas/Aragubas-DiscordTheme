@@ -47,7 +47,7 @@
 
 /* Voice call actions container */
 .container-1zzFcN {
-  padding: 4px;
+  padding: var(--space-Med);
   margin-bottom: 0.5rem;
 }
 
