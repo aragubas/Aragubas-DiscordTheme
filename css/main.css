@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto&family=Ubuntu:wght@300;700&display=swap");
+@import "./header.css";
+@import "./controls.css";
+@import "./features-card.css";
 
 :root {
   /* Backgrounds */
@@ -38,11 +41,16 @@ body {
 body::-webkit-scrollbar {
   background-color: var(--scrollbar-auto-track);
   width: 12px;
+  height: 12px;
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-auto-thumb);
   min-height: 40px;
+}
+
+body::-webkit-scrollbar-corner {
+  background-color: var(--background-secondary);
 }
 
 body::-webkit-scrollbar-thumb,
@@ -74,110 +82,9 @@ a {
   font-family: Inter;
 }
 
-.header-container {
-  background-color: var(--background-secondary);
-  height: 2.5rem;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  box-shadow: 0px 1px 0px rgba(2, 4, 8, 0.2);
-  padding: 8px;
-  box-sizing: border-box;
-}
-
-.header-logo {
-  width: 28px;
-}
-
-.logo-box {
-  font-family: Ubuntu;
-  font-weight: bold;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  gap: 0.5rem;
-}
-
-.logo-box span {
-  color: var(--text-muted);
-  font-family: Ubuntu;
-  font-weight: bold;
-}
-
-.button {
-  display: block;
-  transition: background-color 0.17s ease, color 0.17s ease;
-  background-color: rgb(89, 102, 243);
-  padding: 4px 12px;
-  border-radius: 4px;
-  color: var(--text-normal);
-  text-align: center;
-}
-
-.button:hover {
-  background-color: rgb(80, 82, 98);
-  color: white;
-}
-
-.main-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  width: 1044px;
-  box-shadow: 0px 1px 1px rgba(4, 6, 8, 0.2);
-  border-radius: 4px;
+/* Main feature card */
+.main-container-bg {
   background: var(--linearGradient-background-floating);
-}
-
-.preview-image-container {
-  display: flex;
-  padding: 18px;
-}
-
-.preview-image {
-  border-radius: 4px;
-  box-shadow: 0px 0px 16px rgba(2, 4, 5, 0.5);
-}
-
-.preview-image-sidebar {
-  border-radius: 4px;
-}
-
-.card-container {
-  display: grid;
-  gap: 1.5rem;
-  padding: 24px;
-}
-
-.card-container i {
-  font-family: Inter;
-  font-style: italic;
-  color: var(--text-muted);
-}
-
-.card-container h1 {
-  color: white;
-  font-family: Ubuntu;
-  font-weight: normal;
-  text-align: center;
-  font-size: 2rem;
-}
-
-.card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  width: 1044px;
-  box-shadow: 0px 1px 1px rgba(4, 6, 8, 0.2);
-  border-radius: 4px;
-  background-color: var(--background-secondary);
-}
-
-.card-links {
-  display: flex;
-  gap: 1rem;
-
-  justify-content: center;
 }
 
 .footer {

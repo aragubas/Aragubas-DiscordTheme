@@ -1,0 +1,14 @@
+.button {
+  display: flex;
+  transition: background-color 0.17s ease, color 0.17s ease;
+  background-color: rgb(89, 102, 243);
+  padding: 4px 12px;
+  border-radius: 4px;
+  color: var(--text-normal);
+  align-items: center;
+}
+
+.button:hover {
+  background-color: rgb(80, 82, 98);
+  color: white;
+}
