@@ -32,7 +32,7 @@
 
 /* Change background in call container */
 .callContainer-HtHELf {
-  background-color: var(--background-secondary) !important;
+  background-color: var(--background-secondary-alt);
 }
 
 /* Change background color in "Active Now" item cards when hovering */

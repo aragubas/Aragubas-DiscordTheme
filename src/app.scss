@@ -37,7 +37,8 @@
 
 // Variables for Color Scheme, Gradients and Spaces::: root,
 :root,
-.theme-light {
+.theme-light,
+.theme-dark {
   /* Backgrounds */
   --background-primary: rgb(40, 42, 54);
   --background-secondary: rgb(50, 52, 68);
