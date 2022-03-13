@@ -23,8 +23,10 @@
   height: var(--bottomBarLayout-height);
 }
 
+/* Activity panel */
 .panel-2ZFCRb.activityPanel-9icbyU {
-  /* padding: var(--space-Med); */
+  margin-bottom: 0.5rem;
+  padding: 4px;
 }
 
 /* Channel text input box */
@@ -40,10 +42,12 @@
 /* Fixes height issues in user actions */
 .panels-3wFtMD {
   height: auto !important;
+  box-sizing: border-box;
 }
 
 /* Voice call actions container */
 .container-1zzFcN {
+  padding: 4px;
   margin-bottom: 0.5rem;
 }
 
