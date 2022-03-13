@@ -55,3 +55,8 @@
 .scroller-oTbAWP.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN .container-1yy5xN {
   padding-bottom: 3rem;
 }
+
+/* Streaming Preview background color */
+.theme-dark .applicationStreamingPreviewWrapper-7j27t8 {
+  background-color: var(--background-secondary-alt);
+}
