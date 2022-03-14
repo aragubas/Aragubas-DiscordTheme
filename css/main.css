@@ -13,36 +13,11 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>. */
 
+@import url("https://rawcdn.githack.com/aragubas/Aragubas-DiscordTheme/c92063c27c8fc02974ae2d235a986a2494b71197/src/color-scheme.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto&family=Ubuntu:wght@300;700&display=swap");
 @import "./header.css";
 @import "./controls.css";
 @import "./features-card.css";
-
-:root {
-  /* Backgrounds */
-  --background-primary: rgb(40, 42, 54);
-  --background-secondary: rgb(50, 52, 68);
-  --background-secondary-alt: rgb(60, 62, 78);
-  --background-tertiary: rgb(70, 72, 88);
-  --background-floating: rgb(60, 62, 78);
-  --background-modifier-selected: rgba(90, 92, 108, 0.35);
-  --background-accent: rgb(70, 72, 88);
-  --deprecated-card-bg: var(--background-secondary);
-
-  /* Gradients */
-  --linearGradient-background-floating: linear-gradient(
-    var(--background-floating),
-    var(--background-secondary) 80%
-  );
-
-  /* Scrollbars */
-  --scrollbar-auto-thumb: rgb(60, 62, 78);
-  --scrollbar-auto-track: rgb(50, 52, 68);
-
-  /* Text Colors */
-  --text-muted: rgb(110, 112, 128);
-  --text-normal: rgb(220, 222, 232);
-}
 
 body {
   font-family: Roboto, sans-serif;
