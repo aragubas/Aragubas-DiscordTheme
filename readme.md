@@ -13,4 +13,4 @@ _That theme with a Compact design and a blue color scheme without performance co
 
 ## Support
 
-Contact `Aragubas#3594` (UID: `678368118371778570`) if you need support or help.
+Contact `Aragubas#3594` (ID: `678368118371778570`) if you need support or help.
