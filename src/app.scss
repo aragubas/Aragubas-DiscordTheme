@@ -34,49 +34,12 @@
 @use "./create-server-dialog.css";
 @use "./small-fixes.css";
 @use "./settings.css";
+@use "./color-scheme.css";
 
 // Variables for Color Scheme, Gradients and Spaces::: root,
 :root,
 .theme-light,
 .theme-dark {
-  /* Backgrounds */
-  --background-primary: rgb(40, 42, 54);
-  --background-secondary: rgb(50, 52, 68);
-  --background-secondary-alt: rgb(60, 62, 78);
-  --background-tertiary: rgb(70, 72, 88);
-  --background-floating: rgb(60, 62, 78);
-  --background-modifier-selected: rgba(90, 92, 108, 0.35);
-  --background-accent: rgb(70, 72, 88);
-  --deprecated-card-bg: var(--background-secondary);
-
-  /* Powercord Color Scheme */
-  --toast-header: rgb(60, 62, 78) !important;
-  --toast-background: rgb(60, 62, 78) !important;
-  --toast-contents: var(--background-secondary) !important;
-
-  /* Gradients */
-  --linearGradient-background-floating: linear-gradient(
-    var(--background-floating),
-    var(--background-secondary) 80%
-  );
-
-  --linearGradient-background-settings: linear-gradient(
-    var(--background-floating),
-    var(--background-primary)
-  );
-
-  --linearGradient-background-semilight-floating: linear-gradient(
-    rgb(90, 92, 108),
-    var(--background-secondary)
-  );
-
-  /* Shadows */
-  --boxShadow-elevation-high: 0px 0px 8px rgba(0, 2, 12, 0.5);
-
-  /* Scrollbars */
-  --scrollbar-auto-thumb: rgb(60, 62, 78);
-  --scrollbar-auto-track: rgb(50, 52, 68);
-
   /* Spaces */
   --space-Med: 0.5rem;
 
@@ -85,11 +48,4 @@
 
   /* BottomBarLayout */
   --bottomBarLayout-height: 3rem;
-
-  /* Colors */
-  --text-muted: rgb(110, 112, 128);
-  --text-normal: rgb(220, 222, 232);
-
-  /* Brand Experiment? */
-  --brand-experiment-560: rgb(80, 82, 98);
 }
