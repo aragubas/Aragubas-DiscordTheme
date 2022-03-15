@@ -55,3 +55,8 @@
 .theme-dark .streamPreview-I7itZ6 {
   background-color: var(--background-secondary-alt);
 }
+
+/* Spoiler Text Color */
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum {
+  background-color: var(--background-secondary-alt);
+}
