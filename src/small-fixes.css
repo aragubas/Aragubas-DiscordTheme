@@ -60,3 +60,8 @@
 .theme-dark .spoilerText-27bIiA.hidden-3B-Rum {
   background-color: var(--background-secondary-alt);
 }
+
+/* Background found in "channel is full" message */
+.theme-dark .root-g14mjS {
+  background-color: var(--background-secondary-alt);
+}
