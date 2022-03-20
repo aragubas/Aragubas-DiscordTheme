@@ -99,6 +99,11 @@
   box-shadow: inset 0 1px 0 var(--background-tertiary);
 }
 
+.theme-light .keybind-13vtq8,
+.theme-light .keybindShortcut-3zF1P9 {
+  color: var(--text-normal);
+}
+
 /* 
 .theme-light .base-21yXnu {
   color: white;
