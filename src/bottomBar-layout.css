@@ -25,7 +25,6 @@
 
 /* Activity panel */
 .panel-2ZFCRb.activityPanel-9icbyU {
-  margin-bottom: 0.5rem;
   padding: 8px;
 }
 
@@ -48,7 +47,9 @@
 /* Voice call actions container */
 .container-1zzFcN {
   padding: var(--space-Med);
-  margin-bottom: 0.5rem;
+  /* border-bottom: none; */
+  margin-bottom: -1px;
+  /* margin-bottom: 0.5rem; */
 }
 
 /* Channel text input box */
@@ -147,11 +148,13 @@
 .bottomControls-31YuPK.controlSection-1mNixL {
   background: var(--background-secondary-alt);
   box-sizing: border-box;
-  height: calc(var(--bottomBarLayout-height) + 9px);
+  /* height: calc(var(--bottomBarLayout-height) + 9px); */
+  height: var(--bottomBarLayout-height);
   border-top: 1px solid var(--background-tertiary);
   padding: 8px;
 }
 
 .flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyCenter-rrurWZ.alignCenter-14kD11.noWrap-hBpHBz {
-  transform: scale(85%);
+  transform: scale(75%);
+  padding-bottom: 3px;
 }
