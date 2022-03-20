@@ -76,3 +76,8 @@
 .colorable-3rVGna.primaryDark-2UJt1G {
   background-color: var(--background-secondary);
 }
+
+/* Video Controls tiles */
+.tile-2TcwiO {
+  background-color: var(--background-secondary);
+}
