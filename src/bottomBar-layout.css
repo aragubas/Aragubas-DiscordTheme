@@ -69,11 +69,6 @@
   background-color: var(--background-secondary);
 }
 
-/* Removes padding from video controls */
-/* .videoControls-353CsJ {
-  padding: 0;
-} */
-
 /* Fix for the spacing betwheen the chat input textbox and its parent container */
 .inner-NQg18Y.sansAttachButton-1ERHue {
   padding: calc(var(--space-Med) - var(--bottomBarLayout-height))
@@ -145,7 +140,18 @@
 } */
 
 /* Removes the bottom gradient in video controls */
-/* .gradientBottom-uB_-4E.gradientContainer-phMG8d
-{
+.gradientBottom-uB_-4E.gradientContainer-phMG8d {
   display: none;
-} */
+}
+
+.bottomControls-31YuPK.controlSection-1mNixL {
+  background: var(--background-secondary-alt);
+  box-sizing: border-box;
+  height: calc(var(--bottomBarLayout-height) + 9px);
+  border-top: 1px solid var(--background-tertiary);
+  padding: 8px;
+}
+
+.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyCenter-rrurWZ.alignCenter-14kD11.noWrap-hBpHBz {
+  transform: scale(85%);
+}

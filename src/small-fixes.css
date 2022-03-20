@@ -65,3 +65,14 @@
 .theme-dark .root-g14mjS {
   background-color: var(--background-secondary-alt);
 }
+
+/* Removes padding from video controls */
+.videoControls-353CsJ {
+  padding: 0;
+}
+
+/* Removes discord default color in some buttons and video controls buttons */
+.buttonColor-28DXIe,
+.colorable-3rVGna.primaryDark-2UJt1G {
+  background-color: var(--background-secondary);
+}
