@@ -1,5 +1,4 @@
 :root,
-.theme-light,
 .theme-dark {
   /* Backgrounds */
   --background-primary: rgb(40, 42, 54);
@@ -12,8 +11,8 @@
   --deprecated-card-bg: var(--background-secondary);
 
   /* Powercord Color Scheme */
-  --toast-header: rgb(60, 62, 78) !important;
-  --toast-background: rgb(60, 62, 78) !important;
+  --toast-header: var(--background-secondary-alt) !important;
+  --toast-background: var(--background-secondary-alt) !important;
   --toast-contents: var(--background-secondary) !important;
 
   /* Gradients */
@@ -28,7 +27,7 @@
   );
 
   --linearGradient-background-semilight-floating: linear-gradient(
-    rgb(90, 92, 108),
+    var(--background-accent),
     var(--background-secondary)
   );
 
@@ -39,10 +38,55 @@
   --scrollbar-auto-thumb: rgb(60, 62, 78);
   --scrollbar-auto-track: rgb(50, 52, 68);
 
-  /* Colors */
+  /* Text Colors */
   --text-muted: rgb(110, 112, 128);
   --text-normal: rgb(220, 222, 232);
 
   /* Brand Experiment? */
   --brand-experiment-560: rgb(80, 82, 98);
+}
+
+.theme-light {
+  /* Backgrounds */
+  /* --background-primary: rgb(160, 162, 174) !important; */
+  --background-primary: rgb(200, 202, 214) !important;
+  --background-secondary: rgb(210, 212, 224) !important;
+  --background-secondary-alt: rgb(224, 224, 238) !important;
+  --background-tertiary: rgb(230, 234, 252) !important;
+  --background-floating: rgb(220, 222, 234) !important;
+  --background-modifier-selected: rgba(90, 92, 108, 0.35) !important;
+  --background-accent: rgb(190, 192, 198) !important;
+  --deprecated-card-bg: var(--background-secondary) !important;
+
+  /* Powercord Color Scheme */
+  --toast-header: var(--background-secondary-alt) !important;
+  --toast-background: var(--background-secondary-alt) !important;
+  --toast-contents: var(--background-secondary) !important;
+
+  /* Gradients */
+  --linearGradient-background-floating: linear-gradient(
+    var(--background-floating),
+    var(--background-secondary) 80%
+  );
+
+  --linearGradient-background-settings: linear-gradient(
+    var(--background-floating),
+    var(--background-primary)
+  );
+
+  --linearGradient-background-semilight-floating: linear-gradient(
+    var(--background-tertiary),
+    var(--background-secondary)
+  );
+
+  /* Scrollbars */
+  --scrollbar-auto-thumb: rgb(230, 234, 252) !important;
+  --scrollbar-auto-track: rgb(160, 162, 174) !important;
+
+  /* Text Colors */
+  --text-muted: rgb(10, 12, 28) !important;
+  --text-normal: rgb(20, 22, 32) !important;
+  --channels-default: rgb(30, 32, 42) !important;
+  --interactive-normal: var(--text-normal) !important;
+  --header-secondary: var(--text-normal) !important;
 }
