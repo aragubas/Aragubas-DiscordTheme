@@ -82,33 +82,28 @@
   background-color: var(--background-secondary);
 }
 
+/* Links color in light theme */
 .theme-light .lookLink-15mFoz.colorPrimary-2AuQVo {
   color: var(--text-normal);
 }
 
-/* Explore Public Servers in White Theme mode */
+/* Explore Public Servers in light theme mode */
 .theme-light .pageWrapper-2PwDoS {
   background-color: var(--background-primary);
 }
 
+/* Footer Background Color in light theme */
 .theme-light .footer-31IekZ {
   background-color: var(--background-secondary-alt);
 }
 
+/* Footer Separator in light theme */
 .theme-light .footerSeparator-VzAYwb {
   box-shadow: inset 0 1px 0 var(--background-tertiary);
 }
 
+/* Keybind color text in light theme */
 .theme-light .keybind-13vtq8,
 .theme-light .keybindShortcut-3zF1P9 {
   color: var(--text-normal);
 }
-
-/* 
-.theme-light .base-21yXnu {
-  color: white;
-}
-
-.guildName-1sOa9v.base-21yXnu.size16-rrJ6ag {
-  color: var(--text-normal);
-} */

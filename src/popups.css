@@ -43,7 +43,8 @@
 }
 
 /* Removes dark patch in the end of search popup stuff */
-.theme-dark .option-ayUoaq::after {
+.theme-dark .option-ayUoaq::after,
+.theme-light .option-ayUoaq::after {
   display: none;
 }
 
@@ -51,4 +52,27 @@
 .content-1SgpWY .container-3XgAHv {
   background-color: var(--background-secondary-alt);
   border-radius: 0px;
+}
+
+/* 
+    Small fixes for implementation of light theme
+*/
+
+/* Search Popup Background Color in light theme */
+.theme-light .container-2McqkF {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Muted text in search popup */
+.theme-light .searchOption-3u1gRt .answer-14OVbQ,
+.theme-light .option-ayUoaq .filter-2QaH9y {
+  color: var(--text-muted);
+}
+
+/* Header titles on search popup in light theme */
+.theme-light .resultsGroup-cfY57t .header-1BR0Ro,
+.theme-light .resultsGroup-cfY57t .plusIcon-1RVszG,
+.theme-light .resultsGroup-cfY57t .searchClearHistory-3nIKUO,
+.theme-light .resultsGroup-cfY57t .searchLearnMore-1gNL3A a {
+  color: var(--text-normal);
 }

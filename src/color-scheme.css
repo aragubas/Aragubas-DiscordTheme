@@ -84,8 +84,8 @@
   --scrollbar-auto-track: rgb(160, 162, 174) !important;
 
   /* Text Colors */
-  --text-muted: rgb(10, 12, 28) !important;
-  --text-normal: rgb(20, 22, 32) !important;
+  --text-muted: rgb(20, 22, 32) !important;
+  --text-normal: rgb(10, 12, 22) !important;
   --channels-default: rgb(30, 32, 42) !important;
   --interactive-normal: var(--text-normal) !important;
   --header-secondary: var(--text-normal) !important;
