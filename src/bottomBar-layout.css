@@ -69,6 +69,11 @@
   background-color: var(--background-secondary);
 }
 
+/* Removes padding from video controls */
+.videoControls-353CsJ {
+  padding: 0;
+}
+
 /* Fix for the spacing betwheen the chat input textbox and its parent container */
 .inner-NQg18Y.sansAttachButton-1ERHue {
   padding: calc(var(--space-Med) - var(--bottomBarLayout-height))

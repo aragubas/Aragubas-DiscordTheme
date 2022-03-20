@@ -48,3 +48,21 @@
 .chat-2ZfjoI {
   border-radius: 0px !important;
 }
+
+/* Removes the top gradient on discord call view */
+.gradientTop-1UBZHm.gradientContainer-phMG8d,
+.gradientBottom-uB_-4E.gradientContainer-phMG8d {
+  display: none;
+}
+
+/* Fixed padding in top bar of video controls */
+.headerWrapper-1ULEPv {
+  margin: 0;
+}
+
+/* Video Control Topbar Style */
+.container-ZMc96U.transparent-1lUmft {
+  background-color: var(--background-secondary);
+  height: var(--topBarLayout-height);
+  box-shadow: var(--elevation-low);
+}
