@@ -107,3 +107,8 @@
 .theme-light .keybindShortcut-3zF1P9 {
   color: var(--text-normal);
 }
+
+/* Smaller Scrollbar because yes */
+.auto-2K3UW5::-webkit-scrollbar {
+  width: 13px;
+}
