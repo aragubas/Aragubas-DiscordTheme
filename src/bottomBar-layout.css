@@ -173,7 +173,7 @@
 .chatContent-3KubbW .spamBanner-1auiob {
   margin: 0;
   border-radius: 0;
-  padding: 0 1rem;
+  padding: 0 var(--space-Med);
   height: var(--bottomBarLayout-height);
   background: var(--background-secondary-alt);
   box-sizing: border-box;
