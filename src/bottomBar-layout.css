@@ -168,3 +168,14 @@
 .barBase-3xxDXu .barButtonBase-Sk2mdB {
   color: var(--text-normal);
 }
+
+/* Timed out bottom panel */
+.chatContent-3KubbW .spamBanner-1auiob {
+  margin: 0;
+  border-radius: 0;
+  padding: 0 1rem;
+  height: var(--bottomBarLayout-height);
+  background: var(--background-secondary-alt);
+  box-sizing: border-box;
+  border-top: 1px solid var(--background-tertiary);
+}
