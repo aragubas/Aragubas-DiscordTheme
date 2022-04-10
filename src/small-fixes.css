@@ -113,6 +113,13 @@
   width: 13px;
 }
 
+/* Fixes small issue in user volume thing */
 .item-1OdjEX.colorDefault-CDqZdO.hideInteraction-2jPGL_::before {
   display: none;
+}
+
+/* Removes backgrounds in Server's role settings */
+.header-JUTO-g.stickyHeader-1Sunlx,
+.titleContainer-3fPic2 {
+  background: none;
 }
