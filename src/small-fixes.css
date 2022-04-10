@@ -161,6 +161,7 @@
   background: var(--background-secondary);
 }
 
+/* Fixes height in server boosting screen */
 .perksModal-CLcR1c.auto-2K3UW5.scrollerBase-_bVAAt {
   margin-top: 1.375rem;
 }
