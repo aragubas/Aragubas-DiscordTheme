@@ -21,6 +21,16 @@
   border-radius: 0px;
 }
 
+/* Channel role settings, add role dialog */
+.container-1S70rv.positionBottom-1pd-ap .sectionTag-28mLyE {
+  background: var(--linearGradient-background-floating);
+}
+
+/* Channel role settings, add role dialog header */
+.header-3i_Csh {
+  background-color: var(--background-secondary-alt) !important;
+}
+
 /* Selected item in Auto-Complete Dialog */
 .selected-3H3-RC {
   background-color: var(--background-secondary-alt) !important;
