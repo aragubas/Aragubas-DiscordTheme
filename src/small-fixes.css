@@ -120,6 +120,13 @@
 
 /* Removes backgrounds in Server's role settings */
 .header-JUTO-g.stickyHeader-1Sunlx,
-.titleContainer-3fPic2 {
+.titleContainer-3fPic2,
+.headerContainer-7V7BBm .header-JUTO-g {
   background-color: var(--background-secondary-alt);
+}
+
+/* Roles list in channel permission */
+.sidebarScrollable-2mW9Ls
+  .scroller-3_YDR2.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
+  background: none;
 }
