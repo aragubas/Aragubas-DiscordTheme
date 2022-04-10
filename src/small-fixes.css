@@ -130,3 +130,33 @@
   .scroller-3_YDR2.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN {
   background: none;
 }
+
+.contents-3ca1mk.button-2fCJ0o.innerButton-1aF_E_ {
+  margin: 0px 0.3rem;
+  margin-right: 0.125rem;
+}
+
+.container-1-ERn5.clickable-vvKY2q .header-3OsQeK {
+  display: flex;
+  align-items: center;
+}
+
+/* Server icons */
+.headerContent-2SNbie.primaryInfo-2ocY3v {
+  width: 100%;
+}
+
+/* Server badges */
+.communityInfoContainer-1dMVpU {
+  top: 2rem;
+}
+
+/* Background in server boosting screen */
+.perksModal-CLcR1c.auto-2K3UW5.scrollerBase-_bVAAt {
+  background-color: var(--background-primary);
+}
+
+/* Boosting screen tier cards */
+.theme-dark .tierBody-3ju-rc {
+  background: var(--background-secondary);
+}
