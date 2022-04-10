@@ -121,5 +121,5 @@
 /* Removes backgrounds in Server's role settings */
 .header-JUTO-g.stickyHeader-1Sunlx,
 .titleContainer-3fPic2 {
-  background: none;
+  background-color: var(--background-secondary-alt);
 }
