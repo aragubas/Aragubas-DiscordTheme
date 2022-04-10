@@ -112,3 +112,7 @@
 .auto-2K3UW5::-webkit-scrollbar {
   width: 13px;
 }
+
+.item-1OdjEX.colorDefault-CDqZdO.hideInteraction-2jPGL_::before {
+  display: none;
+}
