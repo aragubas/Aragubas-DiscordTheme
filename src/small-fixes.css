@@ -170,3 +170,8 @@
 .content-2a4AW9 .container-2giAcK {
   margin-top: 0;
 }
+
+/* Krisp noise suppression panel */
+.container-3NTP7o .notches-2w7UZJ.black-11MaxJ {
+  filter: contrast(0.5);
+}
