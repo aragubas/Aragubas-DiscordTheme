@@ -9,6 +9,7 @@
   --background-modifier-selected: rgba(90, 92, 108, 0.35);
   --background-accent: rgb(70, 72, 88);
   --deprecated-card-bg: var(--background-secondary);
+  --input-background: var(--background-secondary) !important;
 
   /* Powercord Color Scheme */
   --toast-header: var(--background-secondary-alt) !important;
@@ -57,6 +58,7 @@
   --background-modifier-selected: rgba(90, 92, 108, 0.35) !important;
   --background-accent: rgb(190, 192, 198) !important;
   --deprecated-card-bg: var(--background-secondary) !important;
+  --input-background: var(--background-secondary) !important;
 
   /* Powercord Color Scheme */
   --toast-header: var(--background-secondary-alt) !important;
