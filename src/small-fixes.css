@@ -180,3 +180,9 @@
 .customScroller-m1-jZn.contentRegionScroller-2_GT_N.auto-2K3UW5.scrollerBase-_bVAAt {
   background: var(--linearGradient-background-settings);
 }
+
+/* Fixes unread pill thing on chat */
+.unreadPill-3nEWYM
+{
+  margin-right: 1rem;
+}
